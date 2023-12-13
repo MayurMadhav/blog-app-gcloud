@@ -1,0 +1,7 @@
+runtime: python39
+env: standard
+
+handlers:
+  - url: /
+    script: main.py
+    static_dir: templates
